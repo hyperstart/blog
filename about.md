@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are two developers who truly believe in Hyperapp's capacity to change the JavaScript landscape. We built Hyperstart because we saw a lot of potential to develop ways to make programming faster and easier, by using this new framework and building devtools on top of our development platform.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Here in this blog you will find tips, best practices, tutorials, and ramblings on JavaScript, start-up life, progressive web applications, and what's next on the world of tiny frameworks.

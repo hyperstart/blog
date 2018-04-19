@@ -1,13 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2018-04-11T19:57:20+02:00</updated><id>/blog/</id><title type="html">Hyperstart blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/blog/jekyll/update/2018/04/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-04-11T19:34:47+02:00</published><updated>2018-04-11T19:34:47+02:00</updated><id>/blog/jekyll/update/2018/04/11/welcome-to-jekyll</id><content type="html" xml:base="/blog/jekyll/update/2018/04/11/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2018-04-19T19:18:35+02:00</updated><id>http://localhost:4000/blog/</id><title type="html">Learn Hyperapp for PWAs</title><subtitle>Blog for Hyperstart, a productive development environment focused on Hyperapp.  Here we will post guides, tutorials and best practices to make powerful and  simple web apps using Hyperapp.</subtitle><entry><title type="html">Resources to Learn Hyperapp</title><link href="http://localhost:4000/blog/hyperapp/tutorial/resources/learning/snippets/recipes/2018/04/19/resources-to-learn-hyperapp.html" rel="alternate" type="text/html" title="Resources to Learn Hyperapp" /><published>2018-04-19T12:32:47+02:00</published><updated>2018-04-19T12:32:47+02:00</updated><id>http://localhost:4000/blog/hyperapp/tutorial/resources/learning/snippets/recipes/2018/04/19/resources-to-learn-hyperapp</id><content type="html" xml:base="http://localhost:4000/blog/hyperapp/tutorial/resources/learning/snippets/recipes/2018/04/19/resources-to-learn-hyperapp.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hyperapp/hyperapp&quot;&gt;Hyperapp&lt;/a&gt; is a tiny JavaScript framework for building web applications. It’s been optimised for perfomance and simplicity, while still allowing for complex web applications. Given its reduced size and architecture, Hyperapp is also ideal for creating Progressive Web Applications (PWA), a topic we will be covering in a later post.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Since it is a new development and requires a different paradigm than many of the most popular frameworks, it may feel daunting to look at a Hyperapp project at first. However, Hyperapp is actually one of the simplest frameworks to learn and develop with. The resources linked here can be a valuable first step, but as with any programming exercise, the best approach is to try it yourself. You can fork Hyperapp from the Github link above and try out any of the examples below. Alternatively, you can use &lt;a href=&quot;https://www.hyperstart.io/&quot;&gt;Hyperstart&lt;/a&gt;, an online development framework optimised for Hyperapp, which deploys pre-configured projects and already includes many of the examples mentioned here.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Whatever way you choose to code using Hyperapp, the first step should be to understand the documentation, available at &lt;a href=&quot;https://github.com/hyperapp/hyperapp/blob/master/README.md&quot;&gt;Github&lt;/a&gt;. You can follow up with more texts from Jorge Bucaran, Hyperapp’s creator, at &lt;a href=&quot;https://www.sitepoint.com/hyperapp-1-kb-javascript-library/&quot;&gt;this Sitepoint article&lt;/a&gt; and on &lt;a href=&quot;https://gist.github.com/JorgeBucaran/8dc33b7947f3193eb2ea3d5700e27036&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;code-examples&quot;&gt;Code Examples&lt;/h2&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;For a more complete and constantly updated list of projects built with Hyperapp, including boilerplates and utilities, check &lt;a href=&quot;https://github.com/hyperapp/awesome-hyperapp&quot;&gt;Awesome Hyperapp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is also an ongoing community effort to document resources and examples at &lt;a href=&quot;https://github.com/LearnHyperapp&quot;&gt;Learn Hyperapp&lt;/a&gt;. You can also find recipes to follow at &lt;a href=&quot;https://github.com/LearnHyperapp/hyperapp-recipes&quot;&gt;Hyperapp Recipes&lt;/a&gt;, a collection of code snippets to teach basic and intermediary how-to functionality using Hyperapp.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-examples&quot;&gt;Basic Examples:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hyperstart.io/projects/NYAw2ak7y3R75uHzHWydyk5cViH3-ZB0sSq0VviHwE3PK&quot;&gt;Counter&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hyperstart.io/projects/NYAw2ak7y3R75uHzHWydyk5cViH3-D1WPCuSI9lseef96&quot;&gt;Todo List&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hyperstart.io/projects/NYAw2ak7y3R75uHzHWydyk5cViH3-x6HI0o8Q2jYAZvK8&quot;&gt;Using the style attribute&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;intermediate-examples&quot;&gt;Intermediate Examples:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hyperstart.io/projects/NYAw2ak7y3R75uHzHWydyk5cViH3-mXXHQq4S06S2Uo7u&quot;&gt;Router&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hyperstart.io/projects/NYAw2ak7y3R75uHzHWydyk5cViH3-SCMgWopKZGsi3Sm6&quot;&gt;How to call actions from other slices&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re a more advanced user looking for an example of a complex project, just check out the code for our website, &lt;a href=&quot;https://github.com/hyperstart/hyperstart.io&quot;&gt;Hyperstart.io&lt;/a&gt;. It’s an entirely open-source online development platform and probably one of the biggest projects being built using Hyperapp.&lt;/p&gt;
+
+&lt;h2 id=&quot;reading&quot;&gt;Reading&lt;/h2&gt;
+
+&lt;p&gt;Lastly, we should mention two blogs that deal with Hyperapp-related matters: &lt;a href=&quot;https://zaceno.github.io/hypercraft/&quot;&gt;Hypercraft&lt;/a&gt; and &lt;a href=&quot;https://medium.com/hyperapp&quot;&gt;Hyperapp Vox Populi&lt;/a&gt;. We will also provide more examples and tutorials on this blog, so make sure to check it out as well!&lt;/p&gt;
+
+&lt;p&gt;Lastly, if you have any questions about Hyperapp, you can ask them on &lt;a href=&quot;https://hyperapp.slack.com/messages&quot;&gt;Slack&lt;/a&gt;, &lt;a href=&quot;https://github.com/HyperappJS&quot;&gt;Twitter&lt;/a&gt;, or &lt;a href=&quot;https://www.reddit.com/r/hyperapp&quot;&gt;Reddit&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hyperapp is a tiny JavaScript framework for building web applications. It’s been optimised for perfomance and simplicity, while still allowing for complex web applications. Given its reduced size and architecture, Hyperapp is also ideal for creating Progressive Web Applications (PWA), a topic we will be covering in a later post.</summary></entry></feed>
