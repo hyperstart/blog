@@ -23,6 +23,7 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://hyperstart.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hyperstartJS
 github_username:  hyperstart
+google_analytics: UA-112102241-1
 
 # Build settings
 markdown: kramdown

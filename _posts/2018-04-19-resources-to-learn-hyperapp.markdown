@@ -4,7 +4,7 @@ title:  "Resources to Learn Hyperapp"
 date:   2018-04-19 12:32:47 +0200
 categories: hyperapp tutorial resources learning snippets recipes
 ---
-[Hyperapp](https://github.com/hyperapp/hyperapp){:target="_blank"} is a tiny JavaScript framework for building web applications. It's been optimised for perfomance and simplicity, while still allowing for complex web applications. Given its reduced size and architecture, Hyperapp is also ideal for creating Progressive Web Applications (PWA), a topic we will be covering in a later post.
+[Hyperapp](https://github.com/hyperapp/hyperapp){:target="_blank"} is a micro JavaScript framework for building web applications. It's been optimised for perfomance and simplicity, while still allowing for complex web applications. Given its reduced size and architecture, Hyperapp is also ideal for creating Progressive Web Applications (PWA), a topic we will be covering in a later post.
 
 Since it is a new development and requires a different paradigm than many of the most popular frameworks, it may feel daunting to look at a Hyperapp project at first. However, Hyperapp is actually one of the simplest frameworks to learn and develop with. The resources linked here can be a valuable first step, but as with any programming exercise, the best approach is to try it yourself. You can fork Hyperapp from the Github link above and try out any of the examples below. Alternatively, you can use [Hyperstart](https://www.hyperstart.io/){:target="_blank"}, an online development framework optimised for Hyperapp, which deploys pre-configured projects and already includes many of the examples mentioned here.
 
