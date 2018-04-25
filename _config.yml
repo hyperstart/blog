@@ -19,11 +19,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog for Hyperstart, a productive development environment focused on Hyperapp. 
   Here we will post guides, tutorials and best practices to make powerful and 
   simple web apps using Hyperapp.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hyperstart.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hyperstartJS
 github_username:  hyperstart
-google_analytics: UA-112102241-1
+google_analytics: UA-112102241-2
 
 # Build settings
 markdown: kramdown
